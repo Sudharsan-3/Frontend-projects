@@ -1,0 +1,102 @@
+.container0{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
+}
+.text{
+    height: 20px;
+    font-size: medium;
+    padding: 0px;
+    border: 0px;
+    margin: 0px
+}
+.head-svg{
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+.container01{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.text1{
+    display: flex;
+    font-size: large;
+    
+}
+.head-svg1{
+    display: flex;
+   
+    height: 2rem;
+}
+.home{
+    color: red;
+}
+.container1{
+    background-color: red;
+}
+.container11{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+.ahead{
+    
+    height: 74.8vh;
+}
+.text2{
+    display: flex;
+    
+    color: white;
+}
+.container2{
+    display: flex;
+    gap: 1rem;justify-content: center;
+}
+
+.aboute{
+    display: flex;
+    padding-left: 29rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.container21{
+    max-width: 25rem;
+    
+    }
+
+.pump-img{
+    display: flex;
+    justify-content: center;
+   padding-left: 15rem;
+   height: 17rem;
+   
+   
+}
+.pump-img1{
+    
+    height: 25%;
+    position: absolute;
+   padding-top: 5rem;
+   padding-right: 38rem;
+}
+.pump-img2{
+    position: static;
+    
+    height: 250px;
+}
+.back{
+    background-color: red;
+    display: flex;
+    gap:10rem;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    background-color: black;
+    color: white;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
