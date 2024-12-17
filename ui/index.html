@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend-Projects</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<style>
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+    }
+
+.layout {
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(1, auto);
+  gap: 30px;
+
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+img{
+    width: 25%;
+    box-shadow: 0px 0px 12px black;
+}
+img:hover{
+    width: 30%;
+    box-shadow : 0px 0px 12 red;
+}
+
+
+body{
+    margin: 0px;
+      background-color: #213555;
+    color: #F5EFE7;
+}
+
+
+header>div , footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3E5879;
+    border: 2px solid #F5EFE7;
+  
+    
+height: 10vh;}
+
+header>div>label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large ;
+    font-weight:bolder;
+    color: #D8C4B6;
+}
+
+
+
+    
+
+</style>
+<body>
+    <header>
+         <div>
+            <label class="con" for="text">UI Designs</label>
+    </div>
+    </header>
+   
+    <div >
+
+          <main class="layout">
+           <img src="./1.png" alt="">
+           
+           <img src="./2.png" alt="">
+           <img src="./3.png" alt="">
+           <img src="./4.png" alt="">
+           <img src="./5.png" alt="">
+           <img src="./6.png" alt="">
+
+
+    </main>
+    </div>
+  
+
+    <footer>
+        <p>@2024 <span>sudharsans</span></p>
+    </footer>
+
+    
+</body>
+</html>
